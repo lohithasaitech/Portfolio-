@@ -3,90 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lohitha Sai Jayavarapu</title>
+
+    <title>Lohitha Sai Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
+<!-- NAV -->
 <nav>
-    <h2>Portfolio</h2>
+    <h2><i class="fa-solid fa-code"></i> Portfolio</h2>
+
     <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hero"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#skills"><i class="fa-solid fa-bolt"></i> Skills</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
     </ul>
 </nav>
 
+<!-- HERO -->
 <section id="hero">
     <img src="1000065026jpg.0.jpg" alt="Profile Photo">
-    <h1>Hi, I'm Lohitha Sai 👋</h1>
-    <p>Aspiring AI & ML Engineer | Web Developer</p>
-    <a href="resume.pdf.pdf" download class="btn">Download Resume</a>
+
+    <h1>Hi, I'm <span id="typing"></span> 👋</h1>
+
+    <p>
+        <i class="fa-solid fa-robot"></i> AI & ML Aspirant |
+        <i class="fa-solid fa-laptop-code"></i> Web Developer
+    </p>
+
+    <a href="resume.pdf" download class="btn">
+        <i class="fa-solid fa-download"></i> Download Resume
+    </a>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
-    <h2>About Me</h2>
+    <h2><i class="fa-solid fa-user"></i> About Me</h2>
+
     <p>
         I am a B.Tech student passionate about Artificial Intelligence,
-        Machine Learning, and Web Development.
+        Machine Learning, and Full Stack Web Development. I enjoy building
+        real-world projects and improving my coding skills.
     </p>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
-    <h2>Skills</h2>
+    <h2><i class="fa-solid fa-bolt"></i> Skills</h2>
+
     <div class="grid">
-        <span>C</span>
-        <span>Python</span>
-        <span>Java</span>
-        <span>DSA</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
+        <span><i class="fa-brands fa-c"></i> C</span>
+        <span><i class="fa-brands fa-python"></i> Python</span>
+        <span><i class="fa-brands fa-java"></i> Java</span>
+        <span><i class="fa-solid fa-database"></i> DSA</span>
+        <span><i class="fa-brands fa-html5"></i> HTML</span>
+        <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        <span><i class="fa-brands fa-js"></i> JavaScript</span>
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-    <h2>Projects</h2>
+    <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
 
     <div class="cards">
 
         <div class="card">
-            <h3>Image Gallery</h3>
+            <h3><i class="fa-solid fa-image"></i> Image Gallery</h3>
             <p>Built using HTML, CSS, JS.</p>
-            <a href="https://github.com/lohithasaitech/CodeAlpha_Image-Gallery/" target="_blank">View</a>
         </div>
 
         <div class="card">
-            <h3>Calculator</h3>
-            <p>Simple calculator using Html, Css, JavaScript.</p>
-            <a href="https://lohithasaitech.github.io/CodeAlpha_Calculator/" target="_blank">View</a>
+            <h3><i class="fa-solid fa-calculator"></i> Calculator</h3>
+            <p>Simple calculator using JavaScript.</p>
         </div>
 
         <div class="card">
-            <h3>Music Player</h3>
-            <p>Music player web app.</p>
-            <a href="https://lohithasaitech.github.io/CodeAlpha_Music_player/" target="_blank">View</a>
+            <h3><i class="fa-solid fa-music"></i> Music Player</h3>
+            <p>Web-based music player application.</p>
         </div>
 
     </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-    <h2>Contact</h2>
+    <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
 
-    <p>Email: <a href="mailto:lohithasai229@gmail.com">lohithasai229@gmail.com</a></p>
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:lohithasai229@gmail.com">Email Me</a>
+    </p>
 
-    <p>GitHub: <a href="https://github.com/lohithasaitech" target="_blank">Profile</a></p>
+    <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/lohithasaitech" target="_blank">GitHub</a>
+    </p>
 
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lohitha-sai-jayavarapu-413595339" target="_blank">Profile</a></p>
+    <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/lohitha-sai-jayavarapu-413595339" target="_blank">LinkedIn</a>
+    </p>
 </section>
 
 <footer>
-    <p>© 2026 Lohitha Sai</p>
+    <p>© 2026 Lohitha Sai | Built with ❤️</p>
 </footer>
 
+<script src="script.js"></script>
+
 </body>
-    </html>
+</html>
